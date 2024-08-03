@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<filmes>
+
+<filme id="1">
+<titulo>Kill Bill 1</titulo>
+<resumo>
+1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur harum tempora quos placeat iusto. Inventore, provident quasi natus ipsam asperiores recusandae ratione odio, aut velit soluta, delectus voluptatum. Minus, eum.
+</resumo>
+<genero>Drama</genero>
+<genero>Ação</genero>
+<elenco>
+<ator>Wagner 1</ator>
+<ator>Rodrigo 1</ator>
+</elenco>
+</filme>
+
+<filme id="2">
+<titulo>Vingadores 2</titulo>
+<resumo>
+2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur harum tempora quos placeat iusto. Inventore, provident quasi natus ipsam asperiores recusandae ratione odio, aut velit soluta, delectus voluptatum. Minus, eum.
+</resumo>
+<genero>Fantasia</genero>
+<genero>Ação</genero>
+<elenco>
+<ator>Wagner 2</ator>
+<ator>Rodrigo 2</ator>
+</elenco>
+</filme>
+
+<filme id="3">
+<titulo>Vingadores 3</titulo>
+<resumo>
+3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur harum tempora quos placeat iusto. Inventore, provident quasi natus ipsam asperiores recusandae ratione odio, aut velit soluta, delectus voluptatum. Minus, eum.
+</resumo>
+<genero>Fantasia</genero>
+<genero>Ação</genero>
+<elenco>
+<ator>Wagner 3</ator>
+<ator>Rodrigo 3</ator>
+</elenco>
+</filme>
+
+<filme id="4">
+<titulo>Tartaruga Ninja</titulo>
+<resumo>
+4 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur harum tempora quos placeat iusto. Inventore, provident quasi natus ipsam asperiores recusandae ratione odio, aut velit soluta, delectus voluptatum. Minus, eum.
+</resumo>
+<genero>Fantasia</genero>
+<genero>Ação</genero>
+<elenco>
+<ator>Wagner 4</ator>
+<ator>Rodrigo 4</ator>
+</elenco>
+</filme>
+
+</filmes>
