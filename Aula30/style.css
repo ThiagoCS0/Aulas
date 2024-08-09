@@ -1,7 +1,7 @@
 :root {
-	--cab: 70px;
 	--c0: #444;
 	--c1: #EEE;
+	--cab: 70px;
 }
 
 * {
@@ -35,26 +35,38 @@ li {
 	text-decoration: none;
 	text-decoration: none;
 	font-weight: bolder;
-	cursor: pointer;
 	color: var(--c0);
+	cursor: pointer;
 	height: 100%;
 	width: 100%;
 }
 
 a {
 	justify-content: center;
+	text-decoration: none;
 	align-items: center;
 	display: flex;
 	height: 100%;
 	width: 100%;
 }
 
+nav a {
+	font-size: 28px;
+}
+
+#hamb {
+	display: none;
+}
+
+body {
+	width: 100vw;
+}
+
 section {
 	height: calc(100vh - var(--cab));
 	background-color: var(--c0);
+	padding: 10px 20px;
 	color: var(--c1);
-	padding: 20px;
-	width: 100%;
 }
 
 section:not(:first-child) {
@@ -62,5 +74,35 @@ section:not(:first-child) {
 }
 
 h1 {
+	font-size: 36px;
 	padding: 20px;
+}
+
+hr {
+	border: 1px solid var(--c1);
+	margin: 10px 20px 30px;
+}
+
+p {
+	font-size: 28px;
+}
+
+@media only screen and (min-width: 500px) {
+	section {
+		padding: 10px 10vw;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	ul {
+		display: none;
+	}
+
+	#hamb {
+		justify-content: center;
+		align-items: center;
+		width: fit-content;
+		display: flex;
+		padding: 20px;
+	}
 }
