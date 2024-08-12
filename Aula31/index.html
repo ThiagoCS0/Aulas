@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aula 31</title>
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script defer src="./script.js"></script>
+
+<body>
+	<header>
+		<nav>
+			<a href="#" id="logoSup">
+				<img src="./src/logo.png" id="logo">
+			</a>
+			<ul id="menuSup">
+				<li><a class="fonteEsp" href="#">Premium</a></li>
+				<li><a class="fonteEsp" href="#ini">Ajuda</a></li>
+				<li><a class="fonteEsp" href="#mei">Baixar</a></li> <p style="padding: 0;">|</p>
+				<li><a class="fonteEsp" href="#fim">Inscrever-se</a></li>
+				<li><a class="fonteEsp" href="#">Entrar</a></li>
+			</ul>
+			<a id="hambu" onclick="menu()">
+				&#9776
+			</a>
+		</nav>
+	</header>
+	<main>
+		<section id="ini">			
+			<div class="swiper mySwiper">
+				<div class="swiper-wrapper" style="color: #444;">
+					<div class="swiper-slide">
+						<p class="fonteEsp fonteEsp2">As melhores rádios</p>
+					<button>OUÇA AGORA</button>
+					</div>
+					<div class="swiper-slide" style="display: flex; flex-direction: column;">
+						<p class="fonteEsp fonteEsp2">Música para todos</p>
+						<div id="btSlide1">
+							<button>APROVEITE O SPOTIFY FREE</button>
+							<button>OBTER O SPOTIFY PREMIUM</button>
+					</div></div>
+				</div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+			</div>
+		</section>
+		<section id="mei">
+			<div>
+				<img src="./src/i0.png">
+				<img src="./src/i1.png">
+				<img src="./src/i2.png">
+				<img src="./src/i3.png">
+			</div>
+			<div>
+				<h1>O que o Spotify tem?</h1>
+				<h2 class="tituloEsp">Música</h2>
+				<p>O Spotify tem milhões de músicas. Escute seus sons favoritos, descubra novas músicas e reúna seus favoritos
+					em um só lugar.</p>
+				<h2 class="tituloEsp">Playlists</h2>
+				<p>No Spotify você encontra uma playlist para cada momento. Todas feitas por fantáticos e especialistas.</p>
+				<h2 class="tituloEsp">Novos lançamentos</h2>
+				<p>Escute ps novos lançamentos de singles e álbuns da semana e veja o que está bombando no top 50.</p>
+				</h2>
+			</div>
+		</section>
+		<section id="fim">
+			<div>
+				<h1>Fácil</h1>
+				<h2 class="fimH2">Buscar</h2>
+				<p>Ja sabe o que quer escutar? É só procurar e apertar o play.</p>
+				<h2 class="fimH2">Navegar</h2>
+				<p>Veja os novos lançamentos, o que esta bombando nos paradas e as melhores playlists para e seu momento.</p>
+				<h2 class="fimH2">Descobrir</h2>
+				<p>Curta músicas novas toda segunda-feiro com um playlist personalizada par você. Relaxe e curta uma das rádios.</p>
+			</div>
+		<img id="tel" src="./src/tel.png">
+		</section>
+	</main>
+	<footer>
+		<a href="#"><img src="./src/logo.png" id="logoFooter"></a>
+		<div id="colunas">
+			<div>
+				<p>COMPANY</p>
+				<a href="#">Sobre</a>
+				<a href="#">Empregos</a>
+				<a href="#">Imprensa</a>
+				<a href="#">Novidades</a>
+			</div>
+			<div>
+				<p>COMUNIDADES</p>
+				<a href="#">Artistas</a>
+				<a href="#">Desenvolvedores</a>
+				<a href="#">Marcas</a>
+			</div>
+			<div>
+				<p>LINKS UTEIS</p>
+				<a href="#">Ajuda</a>
+				<a href="#">Presentes</a>
+				<a href="#">Player da web</a>
+			</div>
+		</div>
+		<div id="social">
+			<button style="background-image: url('./src/insta.png')" class="social" title="Instagran" alt="Instagran"></button>
+			<button style="background-image: url('./src/twite.png')" class="social" title="X" alt="X"></button>
+			<button style="background-image: url('./src/faceb.png')" class="social" title="Facebook" alt="Facebook"></button>
+		</div>
+	</footer>
+</body>
+
+</html>

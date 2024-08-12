@@ -1,0 +1,91 @@
+:root {
+	--cB: #181B1E;
+	--cBM: #2F3840;
+	--cMB: #272F33;
+	--cMBA: #3DCDF4;
+	--cMF: #6DA6AE;
+	--cFS: #417683;
+	--cFT: #57CEF8;
+	--cTX: #9EACB3;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: var(--cB);
+	padding: 20px 40px;
+	color: var(--cTX);
+}
+
+#dvInicio {
+	align-items: center;
+	display: flex;
+	gap: 20px;
+}
+
+#dvInicio div {
+	line-height: 10px;
+}
+
+#dvInicio img {
+	width: 50px;
+	height: 50px;
+}
+
+#dvInicio h1 {
+	color: var(--cFT);
+}
+
+#dvInicio p {
+	color: var(--cFS);
+}
+
+#dvMenu {
+	flex-direction: column;
+	height: fit-content;
+	border-radius: 3px;
+	display: flex;
+	width: 450px;
+	gap: 4px;
+}
+
+#dvAbas {
+	justify-content: space-around;
+	display: flex;
+	width: 100%;
+}
+
+#dvAbas a {
+	background-color: var(--cMB);
+	border-radius: 8px 8px 0 0;
+	text-decoration: none;
+	font-size: small;
+	padding: 10px;
+	color: #FFF;
+}
+
+#dvAbas a:hover {
+	background-color: var(--cMBA) !important;
+	color: #000;
+}
+
+#dvAbas a:active {
+	background-color: var(--cMBA);
+	color: #000;
+}
+
+nav {
+	height: fit-content;
+	min-height: 100px;
+}
+
+#corpo {
+	background-color: var(--cBM);
+	height: fit-content;
+	padding: 10px;
+}
+
+#dvConteudo {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
