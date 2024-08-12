@@ -45,7 +45,7 @@ header p {
 
 #tabs button {
 	font-size: 0.80rem;
-	background-color: #334;
+	background-color: #445;
 	border: 0;
 	border-bottom-color: #FE4;
 	color: #EEF;
@@ -55,8 +55,8 @@ header p {
 }
 
 #tabs button:hover,
-#tabs button:active {
-	background-color: #234;
+#tabs button.active {
+	background-color: #357;
 	border-radius: 0 4px 4px 4px;
 	padding: 0.5rem;
 }
