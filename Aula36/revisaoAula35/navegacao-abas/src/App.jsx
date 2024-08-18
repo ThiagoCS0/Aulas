@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import NavegacaoAbas from './components/navegacao-aba'
+import MyComponent from '../../../classComponent/ClassComponent'
+// import NavegacaoAbas from './components/navegacao-aba'
 
 function App() {
   return (
     <>
-      <NavegacaoAbas />
+      <MyComponent />
     </>
   )
 }
