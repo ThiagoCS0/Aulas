@@ -1,1 +1,1 @@
-Exercicios do curso do FullStack
+Exercicios do curso do FullStack +praTi
