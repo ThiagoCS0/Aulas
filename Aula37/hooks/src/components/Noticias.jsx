@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 function Noticias() {
-	const [noticia, defNoticias] = useState(null)
+	const [noticia, defNoticias] = useState([])
 	const [estaCarregando, Carregando] = useState(true)
 	useEffect(() => {
 		const buscarNoticias = async () => {
