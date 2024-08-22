@@ -1,11 +1,12 @@
 import { useState } from 'react'
-import './App.css'
-
+import UserCard from './components/UserCard'
+const [user, setUser] = useState({ name: 'Velho', age: 100 })
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
+      <div>
+        <UserCard user={user} setUser={setUser} />
+      </div>
     </>
   )
 }

@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #222;
+	color: #AAA;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+input {
+	background-color: #444;
+	color: #fff;
+	padding: 8px;
+}
+
+form {
+	display: flex;
+	gap: 10px;
+}
+
+button {
+	cursor: pointer;
+}
