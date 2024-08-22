@@ -1,13 +1,9 @@
 import { useContext } from "react"
-import { MyProvider } from "./Contexto"
+import { MyContext } from "./Contexto"
 
 const MyChildren = () => {
-	const context = useContext(MyProvider)
-	return (
-		<div>
-			Meu nome é {context.name}
-		</div>
-	)
+	const context = useContext(MyContext)
+	return <div> Meu nome é {context.name} </div>
 }
 
 export default MyChildren

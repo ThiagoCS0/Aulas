@@ -1,5 +1,5 @@
-import { MyProvider } from "./components/Contexto"
 import MyChildren from "./components/Filho"
+import { MyProvider } from "./components/Contexto"
 function App() {
 
   return (
