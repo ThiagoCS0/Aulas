@@ -4,7 +4,14 @@ import Sobre from './components/Sobre'
 import Contatos from './components/Contato'
 import Header from './components/Header'
 function App() {
-
+  {/*
+					Router:                   envolve a aplicação e habilita o roteamento; 
+					Routes (Switch):          garanti que 1 rota sejá rederizado por vez; 
+					Route:                    define rotas;
+					Redirecionamento:         é o envio do usuário de uma URL para outra; 
+					Navigation (Redirect):    redireciona para outra rota; 
+					element (do Navigation):  é mais amplo permitindo mandar mais elementos do jsx;
+  */}
   return (
     <>
       <Router> {/*Tudo que trabalha com roteamento*/}
